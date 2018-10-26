@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+  font-size: 40px;
+  background-color: antiquewhite;
+}
+
+p {
+  color: rgb(40, 153, 40);
+  font-size: 10 px;
+}
+
+p, li {
+  font-size: 14 px;
+  font-style: italic;
+}
