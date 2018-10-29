@@ -1,7 +1,7 @@
 'use strict';
 var userName = prompt('Hello. What is your name?');
 var score = 0; //for the score tally
-alert('Please respond to the following questions with Y/ y/ YES/ Yes/ yes OR N/ n/ NO/ No,');
+alert('Please respond to the following questions with Y/Yes/ OR N/ No.');
 
 // question one
 var responseOne = prompt('Was I born in WA state?').toUpperCase();
@@ -25,7 +25,7 @@ else {
 }
 
 //question three
-var responseThree = prompt ('Am I Right Handed?') .toUpperCase();
+var responseThree = prompt ('Am I Right Handed? (Y/N)') .toUpperCase();
 console.log(responseThree);
 if (responseThree === 'N'|| responseThree === 'NO'){
   alert('Actually I am right handed.');
